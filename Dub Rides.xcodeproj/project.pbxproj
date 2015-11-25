@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DE851761C066B6400AC77AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE851751C066B6400AC77AA /* AppDelegate.swift */; };
+		9DE851781C066B6400AC77AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE851771C066B6400AC77AA /* ViewController.swift */; };
+		9DE8517B1C066B6400AC77AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE851791C066B6400AC77AA /* Main.storyboard */; };
+		9DE8517D1C066B6400AC77AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE8517C1C066B6400AC77AA /* Assets.xcassets */; };
+		9DE851801C066B6400AC77AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE8517E1C066B6400AC77AA /* LaunchScreen.storyboard */; };
+		9DE8518B1C066B6400AC77AA /* Dub_RidesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8518A1C066B6400AC77AA /* Dub_RidesTests.swift */; };
+		9DE851961C066B6500AC77AA /* Dub_RidesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE851951C066B6500AC77AA /* Dub_RidesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DE851871C066B6400AC77AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DE8516A1C066B6400AC77AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DE851711C066B6400AC77AA;
+			remoteInfo = "Dub Rides";
+		};
+		9DE851921C066B6400AC77AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DE8516A1C066B6400AC77AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DE851711C066B6400AC77AA;
+			remoteInfo = "Dub Rides";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9DE851721C066B6400AC77AA /* Dub Rides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dub Rides.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DE851751C066B6400AC77AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DE851771C066B6400AC77AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DE8517A1C066B6400AC77AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DE8517C1C066B6400AC77AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DE8517F1C066B6400AC77AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DE851811C066B6400AC77AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DE851861C066B6400AC77AA /* Dub RidesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dub RidesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DE8518A1C066B6400AC77AA /* Dub_RidesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dub_RidesTests.swift; sourceTree = "<group>"; };
+		9DE8518C1C066B6400AC77AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DE851911C066B6400AC77AA /* Dub RidesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dub RidesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DE851951C066B6500AC77AA /* Dub_RidesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dub_RidesUITests.swift; sourceTree = "<group>"; };
+		9DE851971C066B6500AC77AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DE8516F1C066B6400AC77AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE851831C066B6400AC77AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE8518E1C066B6400AC77AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DE851691C066B6400AC77AA = {
+			isa = PBXGroup;
+			children = (
+				9DE851741C066B6400AC77AA /* Dub Rides */,
+				9DE851891C066B6400AC77AA /* Dub RidesTests */,
+				9DE851941C066B6500AC77AA /* Dub RidesUITests */,
+				9DE851731C066B6400AC77AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DE851731C066B6400AC77AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DE851721C066B6400AC77AA /* Dub Rides.app */,
+				9DE851861C066B6400AC77AA /* Dub RidesTests.xctest */,
+				9DE851911C066B6400AC77AA /* Dub RidesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DE851741C066B6400AC77AA /* Dub Rides */ = {
+			isa = PBXGroup;
+			children = (
+				9DE851751C066B6400AC77AA /* AppDelegate.swift */,
+				9DE851771C066B6400AC77AA /* ViewController.swift */,
+				9DE851791C066B6400AC77AA /* Main.storyboard */,
+				9DE8517C1C066B6400AC77AA /* Assets.xcassets */,
+				9DE8517E1C066B6400AC77AA /* LaunchScreen.storyboard */,
+				9DE851811C066B6400AC77AA /* Info.plist */,
+			);
+			path = "Dub Rides";
+			sourceTree = "<group>";
+		};
+		9DE851891C066B6400AC77AA /* Dub RidesTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DE8518A1C066B6400AC77AA /* Dub_RidesTests.swift */,
+				9DE8518C1C066B6400AC77AA /* Info.plist */,
+			);
+			path = "Dub RidesTests";
+			sourceTree = "<group>";
+		};
+		9DE851941C066B6500AC77AA /* Dub RidesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9DE851951C066B6500AC77AA /* Dub_RidesUITests.swift */,
+				9DE851971C066B6500AC77AA /* Info.plist */,
+			);
+			path = "Dub RidesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DE851711C066B6400AC77AA /* Dub Rides */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DE8519A1C066B6500AC77AA /* Build configuration list for PBXNativeTarget "Dub Rides" */;
+			buildPhases = (
+				9DE8516E1C066B6400AC77AA /* Sources */,
+				9DE8516F1C066B6400AC77AA /* Frameworks */,
+				9DE851701C066B6400AC77AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dub Rides";
+			productName = "Dub Rides";
+			productReference = 9DE851721C066B6400AC77AA /* Dub Rides.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DE851851C066B6400AC77AA /* Dub RidesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DE8519D1C066B6500AC77AA /* Build configuration list for PBXNativeTarget "Dub RidesTests" */;
+			buildPhases = (
+				9DE851821C066B6400AC77AA /* Sources */,
+				9DE851831C066B6400AC77AA /* Frameworks */,
+				9DE851841C066B6400AC77AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DE851881C066B6400AC77AA /* PBXTargetDependency */,
+			);
+			name = "Dub RidesTests";
+			productName = "Dub RidesTests";
+			productReference = 9DE851861C066B6400AC77AA /* Dub RidesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9DE851901C066B6400AC77AA /* Dub RidesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DE851A01C066B6500AC77AA /* Build configuration list for PBXNativeTarget "Dub RidesUITests" */;
+			buildPhases = (
+				9DE8518D1C066B6400AC77AA /* Sources */,
+				9DE8518E1C066B6400AC77AA /* Frameworks */,
+				9DE8518F1C066B6400AC77AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DE851931C066B6400AC77AA /* PBXTargetDependency */,
+			);
+			name = "Dub RidesUITests";
+			productName = "Dub RidesUITests";
+			productReference = 9DE851911C066B6400AC77AA /* Dub RidesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DE8516A1C066B6400AC77AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jia, Kartikey, Juan, Xiangyu";
+				TargetAttributes = {
+					9DE851711C066B6400AC77AA = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					9DE851851C066B6400AC77AA = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 9DE851711C066B6400AC77AA;
+					};
+					9DE851901C066B6400AC77AA = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 9DE851711C066B6400AC77AA;
+					};
+				};
+			};
+			buildConfigurationList = 9DE8516D1C066B6400AC77AA /* Build configuration list for PBXProject "Dub Rides" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DE851691C066B6400AC77AA;
+			productRefGroup = 9DE851731C066B6400AC77AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DE851711C066B6400AC77AA /* Dub Rides */,
+				9DE851851C066B6400AC77AA /* Dub RidesTests */,
+				9DE851901C066B6400AC77AA /* Dub RidesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DE851701C066B6400AC77AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE851801C066B6400AC77AA /* LaunchScreen.storyboard in Resources */,
+				9DE8517D1C066B6400AC77AA /* Assets.xcassets in Resources */,
+				9DE8517B1C066B6400AC77AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE851841C066B6400AC77AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE8518F1C066B6400AC77AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DE8516E1C066B6400AC77AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE851781C066B6400AC77AA /* ViewController.swift in Sources */,
+				9DE851761C066B6400AC77AA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE851821C066B6400AC77AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE8518B1C066B6400AC77AA /* Dub_RidesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE8518D1C066B6400AC77AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE851961C066B6500AC77AA /* Dub_RidesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DE851881C066B6400AC77AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DE851711C066B6400AC77AA /* Dub Rides */;
+			targetProxy = 9DE851871C066B6400AC77AA /* PBXContainerItemProxy */;
+		};
+		9DE851931C066B6400AC77AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DE851711C066B6400AC77AA /* Dub Rides */;
+			targetProxy = 9DE851921C066B6400AC77AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DE851791C066B6400AC77AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DE8517A1C066B6400AC77AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DE8517E1C066B6400AC77AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DE8517F1C066B6400AC77AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DE851981C066B6500AC77AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DE851991C066B6500AC77AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DE8519B1C066B6500AC77AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dub Rides/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uw.Dub-Rides";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9DE8519C1C066B6500AC77AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dub Rides/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uw.Dub-Rides";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9DE8519E1C066B6500AC77AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dub RidesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uw.Dub-RidesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dub Rides.app/Dub Rides";
+			};
+			name = Debug;
+		};
+		9DE8519F1C066B6500AC77AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dub RidesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uw.Dub-RidesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dub Rides.app/Dub Rides";
+			};
+			name = Release;
+		};
+		9DE851A11C066B6500AC77AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dub RidesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uw.Dub-RidesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Dub Rides";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9DE851A21C066B6500AC77AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dub RidesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uw.Dub-RidesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Dub Rides";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DE8516D1C066B6400AC77AA /* Build configuration list for PBXProject "Dub Rides" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DE851981C066B6500AC77AA /* Debug */,
+				9DE851991C066B6500AC77AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DE8519A1C066B6500AC77AA /* Build configuration list for PBXNativeTarget "Dub Rides" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DE8519B1C066B6500AC77AA /* Debug */,
+				9DE8519C1C066B6500AC77AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9DE8519D1C066B6500AC77AA /* Build configuration list for PBXNativeTarget "Dub RidesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DE8519E1C066B6500AC77AA /* Debug */,
+				9DE8519F1C066B6500AC77AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9DE851A01C066B6500AC77AA /* Build configuration list for PBXNativeTarget "Dub RidesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DE851A11C066B6500AC77AA /* Debug */,
+				9DE851A21C066B6500AC77AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DE8516A1C066B6400AC77AA /* Project object */;
+}
